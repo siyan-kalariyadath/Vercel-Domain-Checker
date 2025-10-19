@@ -8,8 +8,10 @@ import { Button, buttonVariants } from '../ui/button';
 import { cn } from '@/lib/utils';
 import { Github } from 'lucide-react';
 import { FlickeringGrid } from '../ui/flickering-grid';
+import { useRouter } from 'next/navigation';
 
 const Header = () => {
+  const router = useRouter();
   return (
     <header className="relative w-full top-0 left-0 z-50 overflow-hidden">
       <div className="absolute top-4  w-full bg-gradient-to-b from-transparent via-background to-background h-20"></div>
@@ -31,6 +33,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <ThemeToggle />
           <Button
+          onClick={()=>router.push("https://github.com/siyan-kalariyadath")}
             className={cn(
               buttonVariants({
                 variant: 'default',
