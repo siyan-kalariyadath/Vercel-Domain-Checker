@@ -2,7 +2,7 @@
 
 # Vercel Domain Checker
 
-A lightweight web app that helps you quickly check the availability of a domain on **Vercel**.  
+A lightweight web app that helps you quickly check the availability of a **Vercel** domain.  
 Just enter your desired app name, and the tool will instantly let you know if the `.vercel.app` subdomain is available.
 
 ## ✨ Features
